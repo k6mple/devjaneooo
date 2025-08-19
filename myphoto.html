@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myphoto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hearder.css">
+    <link rel="stylesheet" href="general.css">
+</head>
+<body>
+   
+        <div class="hearder">
+            <div class="hearder-logo">
+                <span class="hearder-title">Jane's Space</span>
+            </div>
+            <div class="hearder-buttons">
+                <button class="personalinfo" onclick="location.href='personalinfo.html'"
+                style="color: #fff;
+                background: #684ab0;;
+                font-size: 22px;
+                font-family: 'Roboto', Arial, sans-serif;
+                height: 54px;
+                min-width: 160px;
+                border: 2px solid #fff;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(52,36,90,0.08);
+                transition: all 0.2s;
+                outline: none;">
+                    Personal Profile
+                </button>
+                <button class="myphoto" onclick="location.href='myphoto.html'"
+                style="color: white;
+                background: rgba(52,36,90,0.85);
+                font-size: 22px;
+                font-family: 'Roboto', Arial, sans-serif;
+                height: 54px;
+                min-width: 160px;
+                border: none;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(52,36,90,0.08);
+                transition: all 0.2s;
+                outline: none;">
+                    My Photo
+                </button>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="iv-text" style="display: flex;flex-direction: column;margin-left: 10px;">
+                <div class="show" style="background-color: lightblue;">
+                    <div class="video" style="position: relative">
+                        <video width="800px" controls>
+                        <source src="video_and_image/Weixin Videos2025-08-18_220403_129.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div style="position: absolute;color: white;font-size: 80px;align-self: flex-start;left: 30px;">
+                            4K HDR Dolby Vision
+                        </div>
+                    <div class="intro">
+                        This is my first video in iphone16 pro. I recorded it in 2025. 
+                        It is a very good phone for photography.I was greatly shocked by  it
+                    </div>
+                </div>
+                <div class="show" style="background-color: lightpink;">
+                    <div class="image">
+                        <img src="video_and_image/myfirstmac.jpg" style="width:800px;">
+                    </div>
+                    <div class="intro">
+                        This is my first MacBook Pro. My uncle gave it to me in July 2025. It is a very good laptop for programming and video editing.
+                    </div> 
+                </div>
+                <div class="show" style="background-color: lightgreen;">
+                    <div class="image">
+                    <img src="video_and_image/myfirstpiconiphone16.jpg" style="width: 600px;height: 700px;">
+                    </div>
+                    <div class="intro">
+                        This is my first photo taken by iPhone 16 Pro. I took it in August 2025 at my neighborhood.
+                    </div>
+                </div>
+
+                   
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <style>
+        p{
+            margin: 0;
+            padding: 0;
+        }
+        .greeting {
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 200px;
+            display: flex;
+            justify-content: center;
+           
+
+        }
+        .start {
+            background-color: rgb(9, 144, 255);
+            color: white;
+            font-size: 65px;
+            border: none;
+            border-radius:40px;
+            width: 200px;
+            padding-right: 11.5px;
+            
+        }
+        .start:hover {
+            opacity:0.8;
+            cursor: pointer;
+            width: 220px;
+            transition: width 0.3s ease-in-out;
+            
+             
+        }
+        .start:active {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div style="position: fixed;display: flex;flex-direction: column;top: 0;right: 0;bottom: 0;left: 0;
+        align-items: center;justify-content: center;">
+        <div class="greeting">
+             Hello
+        </div>
+        <div style="font-family: Arial;font-weight: bold;font-size: 120px;">
+            Let's know about me
+        </div>
+        <div>
+            <button class="start" onclick="location.href='personalinfo.html'">Start</button>
+        </div>
+    </div>
+   
+    
+</body>
+</html>
